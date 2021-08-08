@@ -1,5 +1,7 @@
 # CTF Readiness Check Script
 
+*At this moment exclusively designed for TryHackMe. Additive design is in progress for Hack The Box.*
+
 #### Script to troubleshoot connectivity to the TryHackMe network using OpenVPN as well as install a few extra tools on Linux.
 Usage:
 * Download the `ctf-readinesscheck` script. Saving it to the same place as your OpenVPN configuration pack (`~/Downloads` by default) is advisable, but not essential.
