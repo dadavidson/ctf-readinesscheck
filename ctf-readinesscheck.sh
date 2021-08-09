@@ -142,6 +142,7 @@ apt update &>/dev/null && apt install npm python3-pip tree geany gedit remmina s
 curl -L "https://go.microsoft.com/fwlink/?LinkID=760868" > /tmp/vscode.deb && apt install /tmp/vscode.deb -y && sudo rm /tmp/vscode.deb
 yes | npm install -g tldr
 yes | pip3 install updog
+yes | pip3 install search-that-hash
 
 #Check Openvpn is installed
 if ! dpkg-query -W -f='${Status}' openvpn &>/dev/null; then
