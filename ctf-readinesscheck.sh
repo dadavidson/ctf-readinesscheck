@@ -143,6 +143,7 @@ curl -L "https://go.microsoft.com/fwlink/?LinkID=760868" > /tmp/vscode.deb && ap
 yes | npm install -g tldr
 yes | pip3 install updog
 yes | pip3 install search-that-hash
+yes | pip3 install name-that-hash
 
 #Check Openvpn is installed
 if ! dpkg-query -W -f='${Status}' openvpn &>/dev/null; then
